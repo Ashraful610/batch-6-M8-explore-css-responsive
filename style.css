@@ -1,5 +1,9 @@
-h1{
-    font-size: 50px;
-    color: tomato;
-    font-family:cursive ;  
+.container{
+    border: 5px double salmon;
+    padding: 10px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
 }
