@@ -1,9 +1,17 @@
 .container{
     border: 5px double salmon;
     padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(5 ,200px) 1fr;
+    height: 550px;
+
 }
 .box{
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
+    padding: 20px;
     border: 2px solid blue;
 }
